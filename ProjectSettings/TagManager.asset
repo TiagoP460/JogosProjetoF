@@ -2,7 +2,7 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!78 &1
 TagManager:
-  serializedVersion: 2
+  serializedVersion: 3
   tags: []
   layers:
   - Default
@@ -11,15 +11,15 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Ground
+  - GroundNoEdge
+  - Player
+  - Enemy
+  - Bullets
+  - eBullets
+  - Crates
+  - Items
+  - Destroyables
   - 
   - 
   - 
@@ -41,3 +41,27 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: 0_behind_tiles
+    uniqueID: 3808368795
+    locked: 0
+  - name: 1_main_tiles
+    uniqueID: 1304244233
+    locked: 0
+  - name: 2_ground_overlay
+    uniqueID: 958013225
+    locked: 0
+  - name: 3_overlay1
+    uniqueID: 2666943209
+    locked: 0
+  - name: 4_overlay2
+    uniqueID: 2662584731
+    locked: 0
+  - name: 5_overlay3
+    uniqueID: 58610431
+    locked: 0
+  - name: Units
+    uniqueID: 3021386789
+    locked: 0
+  m_RenderingLayers:
+  - Default
+  m_MigratedRenderPipelines: []
